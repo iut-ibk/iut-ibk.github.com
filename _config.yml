@@ -9,14 +9,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : IUT Software Home
+tagline: We provide you with Water Infrastructure Software
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Unit of Environmental Engineering (University of Innsbruck)
+  email : umwelttechnik@uibk.ac.at
+  github : iut-ibk
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

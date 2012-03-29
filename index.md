@@ -1,46 +1,31 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: The Front
+tagline: Where it all begins
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+# Introduction
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+The Unit of Environmental Engineering (IUT) is part of the biggest Education and Research Institution in western Austria, that is the University Innsbruck. It belongs to the Faculty of Civil Engineering. The Unit employs currently a total staff of 20 persons including 6 PhD students. It is organised in 2 sections, one covering urban water management, and the other waste- and resource management.
 
-## Update Author Attributes
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+Central to the department is the investigation of environmental problems both in research and teaching, with special emphasis on regional (alpine) aspects. The aim is to develop technical and sustainable solutions in order to minimise the impact of society on the environment.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+![Group Photo](images/gruppenbild_iut-820-x-650.jpg "Almost All IUT Members")
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+# Software 
 
-    $ rm -rf _posts/core-samples
+ * CityDrain3
+ * DynaMind
+ * Calimero
+ * CITYDRAIN II
 
-Here's a sample "posts list".
+# Posts
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 
